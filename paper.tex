@@ -1,0 +1,30 @@
+\documentclass{technical}
+\usepackage{lipsum}  % For demo text
+
+% Optional: Set memo logo
+% \memologo{path/to/logo.pdf}
+
+% Required memo metadata
+\title{Technical Memo}
+
+% Author definitions using pubmatter
+\authordef{joey}{
+  literal={Joey Carpinelli},
+  email={joey@carpinelli.email},
+  affiliations={dept1}
+}
+
+\affiliationdef{dept1}{
+  name={Research \& Development},
+  department={Engineering}
+}
+
+\author{\authorname{joey}}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\lipsum[1]
+
+\end{document}
